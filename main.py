@@ -1,5 +1,8 @@
 import numpy as np
 from model_training import load_model
+import logging
+
+logging.basicConfig(level=logging.INFO)
 
 def predict(data):
     """Make predictions using the trained model"""
